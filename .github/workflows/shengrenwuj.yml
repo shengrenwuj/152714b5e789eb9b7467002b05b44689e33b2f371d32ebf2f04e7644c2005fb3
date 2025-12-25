@@ -3,17 +3,20 @@ name: shengrenwuj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
-jobs:  # 2644
+    - cron: '22 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: shengrenwuj
         env:
-          ds97: ${{ secrets.ds97 }}
+          eqh970: ${{ secrets.eqh970 }}
         run: |
-          echo $ds97 | jq -r .ke2 | /bin/bash
-          echo $kumhk3385 | jq -r .j90514 | /bin/bash
-          echo $forr06 | jq -r .gvxdb24 | /bin/bash
+          echo $eqh970 | jq -r .p0 | /bin/bash
+          echo $eu9486 | jq -r .s894 | /bin/bash
+          echo $cedm3836 | jq -r .lmoc34591 | /bin/bash
+          echo $w083 | jq -r .d38447 | /bin/bash
+          echo $bz25 | jq -r .xmt7290 | /bin/bash
 
